@@ -1,0 +1,41 @@
+.container{
+    display: flex;
+    overflow: auto;
+    outline: 1px dashed rosybrown;
+    flex: none;
+    flex-direction: column;
+}
+
+.container-y{
+    scroll-snap-type: x mandatory;
+    flex-flow: column nowrap;
+}
+.main-first-page{
+    background-color: red;
+    flex:none;
+    scroll-snap-align: center;
+    height: 100vh;   
+    width: 100%;
+}
+.main-second-page{
+    background-color: orange;
+    flex:none;
+    scroll-snap-align: center;
+    height: 100vh;   
+    width: 100%;
+}
+.main-third-page{
+    background-color: yellow;
+    height: 100%;   
+    width: 100%;
+}
+.main-fouth-page{
+    background-color: green;
+    height: 100%;   
+    width: 100%;
+}
+.main-fifth-page{
+    background-color: blue;
+    height: 100%;   
+    width: 100%;
+}
