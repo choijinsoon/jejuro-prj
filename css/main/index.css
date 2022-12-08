@@ -16,6 +16,8 @@
     scroll-snap-align: center;
     height: 100vh;   
     width: 100%;
+
+    background: url(../../image/main-first-page.svg) no-repeat center/cover;
 }
 .main-second-page{
     background-color: orange;
@@ -23,19 +25,27 @@
     scroll-snap-align: center;
     height: 100vh;   
     width: 100%;
+
+    background: url(../../image/main-second-page.svg) no-repeat center/cover;
 }
 .main-third-page{
     background-color: yellow;
-    height: 100%;   
+    height: 100vh;   
     width: 100%;
+
+    background: url(../../image/main-third-page.svg) no-repeat center/cover;
 }
 .main-fouth-page{
     background-color: green;
-    height: 100%;   
+    height: 100vh;   
     width: 100%;
+
+    background: url(../../image/main-fourth-page.svg) no-repeat center/cover;
 }
 .main-fifth-page{
     background-color: blue;
-    height: 100%;   
+    height: 100vh;   
     width: 100%;
+
+    background: url(../../image/main-fifth-page.svg) no-repeat center/cover;
 }
