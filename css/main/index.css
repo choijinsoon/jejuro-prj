@@ -10,42 +10,99 @@ section {
     justify-content: center;
     align-items: center;
 }
+
+/* first-page */
 .main-first-page{
     background-color: red;
     height: 100vh;   
 }
+.main-first-head{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 30px 0;
+}
+.main-first-head>h1{
+    margin: 10px 0;
+}
+.main-first-image{
+    height: 400px;
+    border-radius: 20px;
+}
+.main-first-footer{
+    bottom: 20px;
+    position: absolute;
+}
+
+/* second-page */
 .main-second-page{
     background-color: orange;
     height: 100vh;   
 }
+.main-second-head {
+    margin: 20px 0;
+}
+.main-second-head>h1{
+    margin: 10px 0;
+}
+.main-second-image{
+    height: 500px;
+    border-radius: 20px;
+}
+
+/* third-page */
 .main-third-page{
     background-color: yellow;
     height: 100vh;   
 }
-.main-third-page * {
-    margin-top: 30px;
+.main-third-head {
+    margin: 20px 0;
+}
+.main-third-head>h1{
+    margin: 10px 0;
 }
 .main-third-image{
     height: 500px;
     border-radius: 20px;
 }
-.main-third-head{
-    flex:none;
-}
-.main-fouth-page{
+
+/* fourth-page */
+.main-fourth-page{
     background-color: green;
     height: 100vh;  
 }
+
+.main-fourth-head {
+    margin: 20px 0;
+}
+.main-fourth-head>h1{
+    margin: 10px 0;
+}
+.main-fourth-image{
+    height: 500px;
+    border-radius: 20px;
+}
+
+/* fifth-page */
 .main-fifth-page{
     background-color: rgb(100, 100, 255);
     height: 100vh;   
 }
-.main-fifth-page * {
-    margin-top: 30px;
+.main-fifth-head{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 30px 0;
+}
+.main-fifth-head>*{
+    margin: 10px 0;
 }
 .main-fifth-image{
-    width: 300px;
-    height: 400px;
+    width: 250px;
     border-radius: 20px;
     background: url(/image/main-fifth-page.svg) no-repeat center/cover;
 }

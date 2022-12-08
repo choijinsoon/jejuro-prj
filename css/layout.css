@@ -11,4 +11,68 @@ body{
 
 .header{
     background-color: blanchedalmond;
+    top: 0;
+    width: 100%;
+    position: absolute;
+
+    display: inline-flex;
+    justify-content: space-between;
+    
+}
+.jejuro-logo-img{
+    height: 40px;
+}
+
+/* menu-bar */
+.visuallyHidden {
+    position: absolute; 
+    clip: rect(0 0 0 0); 
+}
+.hamburger {
+    margin: 7.5px;
+    width: 30px;
+    height: 30px;
+    position: relative;
+}
+.hamburger .bar {
+    padding: 0;
+    width: 30px;
+    height: 4px;
+    background-color: #ff9900;
+    display: block;
+    border-radius: 4px;
+    transition: all 0.4s ease-in-out;
+    position: absolute; 
+}
+.bar1 {
+    top: 0;
+}
+.bar2,
+.bar3 {
+    top: 13.5px;
+}
+.bar3 {
+    right: 0;
+}
+.bar4 {
+    bottom: 0;
+}
+/* menu-bar-checked */
+.checkbox1:checked + label > .hamburger1 > .bar1{
+    transform: rotate(45deg);
+    transform-origin: 5%;
+    width: 41px
+}
+.checkbox1:checked + label > .hamburger1 > .bar2 {
+    transform: translateX(-40px);
+    background-color: transparent;
+}
+.checkbox1:checked + label > .hamburger1 > .bar3 {
+    transform: translateX(40px);
+    background-color: transparent;
+}
+.checkbox1:checked + label > .hamburger1 > .bar4 {
+    transform-origin: 5%;
+    transform: rotate(-45deg);
+    width: 41px;
 }
