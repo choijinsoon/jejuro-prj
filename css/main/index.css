@@ -1,51 +1,51 @@
-.container{
-    display: flex;
-    overflow: auto;
-    outline: 1px dashed rosybrown;
-    flex: none;
-    flex-direction: column;
+html{
+    scroll-snap-type: y mandatory;
 }
+section {
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
 
-.container-y{
-    scroll-snap-type: x mandatory;
-    flex-flow: column nowrap;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .main-first-page{
     background-color: red;
-    flex:none;
-    scroll-snap-align: center;
     height: 100vh;   
-    width: 100%;
-
-    background: url(../../image/main-first-page.svg) no-repeat center/cover;
 }
 .main-second-page{
     background-color: orange;
-    flex:none;
-    scroll-snap-align: center;
     height: 100vh;   
-    width: 100%;
-
-    background: url(../../image/main-second-page.svg) no-repeat center/cover;
 }
 .main-third-page{
     background-color: yellow;
     height: 100vh;   
-    width: 100%;
-
-    background: url(../../image/main-third-page.svg) no-repeat center/cover;
+}
+.main-third-page * {
+    margin-top: 30px;
+}
+.main-third-image{
+    height: 500px;
+    border-radius: 20px;
+}
+.main-third-head{
+    flex:none;
 }
 .main-fouth-page{
     background-color: green;
-    height: 100vh;   
-    width: 100%;
-
-    background: url(../../image/main-fourth-page.svg) no-repeat center/cover;
+    height: 100vh;  
 }
 .main-fifth-page{
-    background-color: blue;
+    background-color: rgb(100, 100, 255);
     height: 100vh;   
-    width: 100%;
-
-    background: url(../../image/main-fifth-page.svg) no-repeat center/cover;
+}
+.main-fifth-page * {
+    margin-top: 30px;
+}
+.main-fifth-image{
+    width: 300px;
+    height: 400px;
+    border-radius: 20px;
+    background: url(/image/main-fifth-page.svg) no-repeat center/cover;
 }
