@@ -24,7 +24,7 @@
 
 /* main-header deco */
 .main-header h1 {
-    background: linear-gradient(to right, #f70 25%, #f10 50%, #f30 75%, #f50 100%);
+    background: linear-gradient(to right, #434242 25%, #222222 50%, #22A39F 75%, #434242 100%);
     background-size: 200% auto;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
