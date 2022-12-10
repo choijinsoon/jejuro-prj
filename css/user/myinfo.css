@@ -9,6 +9,7 @@
     align-content: space-between;
     text-align: center;
 
+    background-color: #FEFCF3;
 }
 .main-header>h1{
     font-size: 48px;
