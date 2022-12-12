@@ -6,7 +6,7 @@
     display: inline-flex;
     flex-direction: column;
     justify-content: space-between;
-    align-content: space-between;
+    align-items: center;
     text-align: center;
 
     background-color: #FEFCF3;
@@ -14,17 +14,19 @@
 .main-header>h1{
     font-size: 48px;
 }
-.main-main{
+.main-main ul{
     text-align: left;
 }
-
+.main-footer{
+    display: inline-flex;
+}
 .btn{
     margin: 0 10px;
 }
 
 
 /* main-header deco */
-.main-header h1 {
+/* .main-header h1 {
     background: linear-gradient(to right, #434242 25%, #222222 50%, #22A39F 75%, #434242 100%);
     background-size: 200% auto;
     -webkit-background-clip: text;
@@ -49,4 +51,4 @@
         text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 
         0 0 20px #FFE15D, 0 0 35px #FFE15D, 0 0 40px #FFE15D;
       }
-}
+} */

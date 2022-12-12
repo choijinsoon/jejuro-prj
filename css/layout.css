@@ -14,10 +14,10 @@ body{
     top: 0;
     width: 100%;
     height: 50px;
-    position: absolute;
 
     display: inline-flex;
     justify-content: space-between;
+    align-items: center;
     
 }
 .jejuro-logo-img{
@@ -48,14 +48,10 @@ body{
 .bar1 {
     top: 0;
 }
-.bar2,
-.bar3 {
+.bar2 {
     top: 13.5px;
 }
 .bar3 {
-    right: 0;
-}
-.bar4 {
     bottom: 0;
 }
 /* menu-bar-checked */
@@ -69,10 +65,6 @@ body{
     background-color: transparent;
 }
 .checkbox1:checked + label > .hamburger1 > .bar3 {
-    transform: translateX(40px);
-    background-color: transparent;
-}
-.checkbox1:checked + label > .hamburger1 > .bar4 {
     transform-origin: 5%;
     transform: rotate(-45deg);
     width: 41px;
